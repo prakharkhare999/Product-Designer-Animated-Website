@@ -53,5 +53,52 @@ margin-left:240px;
      width:fit-content;
  }
  #blocktext h5{
+    font-size: 15px;
+    text-transform: uppercase;
     text-align:right;
  }
+
+#Miniheadings{
+    margin-top:100px;
+    padding-right: 50px;
+ }
+
+#Miniheadings h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1vw;
+    text-align: right;
+ }
+#herofotter{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding :0 2vw;
+}
+#herofotter a{
+    color:white;
+    text-decoration: uppercase;
+    text-decoration: none;
+    
+
+}
+#herofotter .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#headingfotter #iconset{
+    display: flex;
+    gap:10px;
+}
+#special{
+    display: flex;
+}
